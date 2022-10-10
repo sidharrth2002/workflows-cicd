@@ -9,4 +9,4 @@ The development process moves from `main` - `staging` - `production`, with the m
 
 In this repository, the following curated workflow templates are available:
 
-1. Node.js on App Engine (Courtesy of [@borales](https://github.com/Borales/actions-yarn))
+1. Node.js on App Engine (Adapted from [@borales](https://github.com/Borales/actions-yarn))
