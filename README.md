@@ -5,7 +5,7 @@ My naive approach to handling continuous deployment on Github for both any appli
 2. `staging`- Any work that is ready to move into staging is merged into this branch. 
 3. `production`- Production code lives here and a pull request that merges into this branch invokes a production redeploy.
 
-The development process moves from `main` - `staging` - `production`, with the movement of code facilitated by pull requests. 
+The development process moves from `main` - `staging` - `production`, with the movement of code facilitated by pull requests. This setup does not use a fancy CI framework, nor does it require an extensive number of third-party services.
 
 In this repository, the following curated workflow templates are available:
 
