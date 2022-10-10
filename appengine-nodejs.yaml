@@ -11,8 +11,9 @@ jobs:
     name: Setup
     runs-on: ubuntu-latest
     steps:
-      - name: canvas
-        run: sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev
+      - name: special-ubuntu-dependenceis
+        # install special ubuntu dependencies required by the node.js application
+        run: sudo apt-get install ...
 
   deploy:
     name: Deploy to App Engine
